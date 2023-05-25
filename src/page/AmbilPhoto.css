@@ -1,0 +1,99 @@
+.mainbox {
+    width: 375px;
+    height: 667px;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.box1 {
+    /* width: 100%; */
+    height: 50px;
+    background-color: #002984;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    column-gap: 10px;
+
+}
+
+.box1 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.box2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 253, 253);
+}
+
+.flexbox1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    position: relative;
+
+}
+
+.fotodisplay {
+    width: 343px;
+    height: 579px;
+    background: #E0E0E0;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+
+}
+
+.orang{
+    position: relative;
+    background-image: url('../asset/orang.png');
+    height: 579px;
+    width: 340px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bordercam1{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    
+}
+.bordercam2{
+    position: absolute;
+    top: 410px;
+    left: 30px;
+    rotate: 270deg;
+    
+}
+.bordercam3{
+    position: absolute;
+    top: 130px;
+    right: 30px;
+    rotate: 90deg;
+}
+.bordercam4{
+    position: absolute;
+    top: 410px;
+    right: 30px;
+    rotate: 180deg;
+    
+}
+
+.lingkaran{
+    position: absolute;
+    top: 530px;  
+    left: 50%; 
+    transform: translate(-50%, -50%)
+    
+    
+}

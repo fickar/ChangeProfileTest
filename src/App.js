@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Profile from './page/Profile';
+import ChangePhoto from './page/ChangePhoto';
+import ChangePhoto2 from './page/ChangePhoto2';
+import AmbilPhoto from './page/AmbilPhoto';
+import AmbilGaleri from './page/AmbilGaleri';
+import Profile2 from './page/Profile2';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Profile />} />
+        <Route path="/ChangePhoto" element={<ChangePhoto />} />
+        <Route path="/AmbilPhoto" element={<AmbilPhoto />} />
+        <Route path="/AmbilGaleri" element={<AmbilGaleri />} />
+        <Route path="/ChangePhoto2" element={<ChangePhoto2 />} />
+        <Route path="/Profile" element={<Profile2 />} />
+      </Routes>
+    </BrowserRouter>
     </div>
   );
-}
+  }
 
 export default App;

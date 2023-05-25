@@ -1,0 +1,100 @@
+
+.mainbox{
+    width: 375px;
+    height: 667px;
+    background-color: #fafafa;
+    overflow: hidden;
+  }
+  
+  .box1{
+    /* width: 100%; */
+    height: 50px;
+    background-color: #002984;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    column-gap: 10px;
+    
+  }
+  
+  .box1 p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    
+  }
+  
+  .box2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flexbox1{
+    width: 100%;
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    
+  }
+  
+  .container1{
+    width: 65px;
+    height: 60px;
+    background-color: #E0E0E0;
+    margin: 15px 10px 10px 15px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../asset/orang.png');
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .container2{
+    width: 80%;
+    height: 60px;
+    background-color: #fafafa;
+    color: black;
+    margin: 15px 5px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .container2 h6{
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    top: 165px;
+    margin: 0 0 0 5px;
+  }
+  
+  .container2 p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    top: 180px;
+    margin: 0 0 0 5px;
+  }
+  
+  .flexbox2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .container3{
+    width: 341px;
+    height: 196px;
+    background-color: #002984;
+    margin: 5px 5px 0px 5px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+  }
+  
+  
